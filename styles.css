@@ -8,7 +8,7 @@ h1{
     color: #F0ECE5;
     font-size: 3rem;
     font-family: 'PT Sans', sans-serif;
-    margin: 50px;
+    margin: 25px;
 }
 
 .container{
@@ -27,8 +27,8 @@ h1{
 
 button{
     background-color: #7F7C82;
-    min-width: 25px;
-    min-height: 30px;
+    min-width: 30px;
+    min-height: 40px;
     border-radius: 10%;
     border: #7F7C82;
     font-family: 'PT Sans', sans-serif;
