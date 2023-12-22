@@ -82,8 +82,7 @@ footer{
         gap: 3px;
     }
     .cell{
-        background-color:#31304D;
-        background-size: cover;
+    
         height: 50px;
         width: 50px;
     }
@@ -93,7 +92,7 @@ footer{
         margin: 15%;
     }
     button{
-        min-width: 25px;
-        min-height: 30px;
+        min-width:28px;
+        min-height: 33px;
     }
 }
