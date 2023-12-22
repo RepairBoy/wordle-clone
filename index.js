@@ -24,7 +24,7 @@ $("button").on("click",function(){
 function everything(keyPressed){
     if(keyPressed.match(/^[a-zA-Z]$/) && notLimit){//for key presses from a to z
         $("p:eq("+ index + ")").text(keyPressed.toUpperCase());
-        inputWord += keyPressed;
+        inputWord += keyPressed.toLowerCase();          // the keyboard input and the inbuilt keyboard input have to be the same case
         index++;
         if (index % 5 === 0 && index !== 0  ) {
             notLimit = false;
